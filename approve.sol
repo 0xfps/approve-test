@@ -39,7 +39,7 @@ contract Approve
     *
     * From line 27 this contract owns every USDT Token in existence [You can check using line 30 to 33].
 
-    * Approves address 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB some tokens, as passed in the `_amount`.
+    * Approves any address some tokens, as passed in the `_amount` from the contract's token balance.
     * These tokens are approved from the tokens owned by the contract. I guess thats what you want to do.
     *
     *
