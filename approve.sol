@@ -7,7 +7,7 @@ import "./USDT.sol";
 * @author: Anthony (fps) https://github.com/fps8k .
 * @dev: 
 *
-* This contract approves a user some tokens from the callers token balance.
+* This contract approves a user some tokens from the contract's token balance.
 */
 
 contract Approve
