@@ -2,6 +2,6 @@
 
 ###
 
-A token that approves tokens to addresses from the token's balances.
+A contract that approves tokens to addresses from the token's balances.
 
 ###
