@@ -19,10 +19,6 @@ contract Approve {
     */
     USDT public usdt = new USDT(address(this));
 
-    // function c() public view returns(uint256) {
-    //     return usdt.balanceOf(address(this));
-    // }
-
     /*
     * @dev From line 27 this contract owns every USDT Token in existence [You can check using line 30 to 33].
     * Approves any address some tokens, as passed in the `_amount` from the contract's token balance.
@@ -31,10 +27,10 @@ contract Approve {
     * @param _spender => Address that will be approved some tokens.
     * @param _amount => Amount of tokens.
     */
-    function __approve(address _spender, uint256 _amount) public {
+    function _approve(address _spender, uint256 _amount) public {
         /*
         * @dev: If you're approving from the contract, the contract must own some tokens.
         */
-        usdt.approve(_spender, _amount);            // Simple.
+        usdt.approve(_spender, _amount); // Simple.
     }
 }
